@@ -1,0 +1,14 @@
+public int max( int[] vec) :
+#include <iostream>
+#include <vector>
+
+{
+int maxNum = vec[0];
+for ( int item : vec) 
+{
+if ( item > maxNum) {
+maxNum = item;
+    }
+  }
+return maxNum;
+}
